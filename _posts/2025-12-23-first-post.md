@@ -1,5 +1,6 @@
 ---
 title: "First Post"
+layout: post
 ---
 
 Welcome to the area613 blog.
