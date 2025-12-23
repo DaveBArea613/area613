@@ -1,0 +1,7 @@
+title: area613
+description: "area613 blog"
+url: "https://area613.com"
+theme: minima
+
+# optional: nicer URLs
+permalink: /:categories/:year/:month/:day/:title/
