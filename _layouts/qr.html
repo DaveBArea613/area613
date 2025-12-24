@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<style>
+  .qr-wrap {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 28px 16px 40px;
+    text-align: center;
+  }
+  .qr-logo {
+    display: block;
+    margin: 0 auto 22px;
+    max-width: 260px;
+    height: auto;
+  }
+  .qr-image {
+    display: block;
+    margin: 0 auto;
+    max-width: min(92vw, 720px);
+    height: auto;
+    border-radius: 14px;
+  }
+</style>
+
+<div class="qr-wrap">
+  <img class="qr-logo" src="/area613logo.jpeg" alt="area613 logo">
+
+  {% if page.image %}
+    <img class="qr-image" src="{{ page.image }}" alt="{{ page.alt | default: page.title }}">
+  {% endif %}
+</div>
